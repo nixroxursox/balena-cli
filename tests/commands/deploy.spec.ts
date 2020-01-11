@@ -128,7 +128,8 @@ describe('balena deploy', function() {
 		expect(
 			cleanOutput(out).map(line => line.replace(/\s{2,}/g, ' ')),
 		).to.include.members([
-			`[Info] Creating default composition with source: ${projectPath}`,
+			`[Info] No "docker-compose.yml" file found at "${projectPath}"`,
+			`[Info] Creating default composition with source: "${projectPath}"`,
 			...expectedResponses[responseFilename],
 			`[Warn] CRLF (Windows) line endings detected in file: ${path.join(
 				projectPath,
