@@ -251,6 +251,7 @@ export function setMaxListeners(maxListeners: number) {
 
 export async function globalInit() {
 	setupRaven();
+	// setupRaven();
 	checkNodeVersion();
 	configureBluebird();
 
