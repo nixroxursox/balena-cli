@@ -75,7 +75,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "node automation/check-npm-version.js"
+      "pre-commit": "node automation/check-npm-version.js && lint-staged"
     }
   },
   "oclif": {
@@ -138,6 +138,7 @@
     "gulp-shell": "^0.5.2",
     "husky": "^4.2.1",
     "intercept-stdout": "^0.1.2",
+    "lint-staged": "^10.0.7",
     "mocha": "^6.2.2",
     "nock": "^11.7.2",
     "parse-link-header": "~1.0.1",
