@@ -1,4 +1,14 @@
 - commits:
+    - subject: Use resin-lint for automatic lint fixing
+      hash: bf32d9bc44619c83ac6858e5d04dfddd8e66ac2c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 11.25.3
+  date: 2020-02-05T22:16:12.939Z
+- commits:
     - subject: >-
         Debug mode can now be disabled with DEBUG=0 env var Added assignment to
         `process.env.DEBUG` if `process.env.DEBUG` is negative string to
