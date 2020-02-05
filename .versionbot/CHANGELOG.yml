@@ -1,4 +1,42 @@
 - commits:
+    - subject: Convert lib/actions/auth to typescript
+      hash: c2d47802f0b73be0c2743a86cd4848ec4db86a89
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Convert lib/auth/index to typescript
+      hash: 13426a5479d40a56cbec83e323082a5f6ef14eb6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Switch from opn to its new name of open
+      hash: 0add09a4d8a613175dbc0303aeae59c41b1b2f15
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Convert lib/auth/server to typescript
+      hash: 9a1c4629eaf938f456c139f6eb4e022e2f441499
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Convert lib/auth/utils to typescript
+      hash: 97c821ec51ac0b6044697a007ae2df373729f106
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 11.25.3
+  date: 2020-02-05T21:59:39.784Z
+- commits:
     - subject: >-
         Debug mode can now be disabled with DEBUG=0 env var Added assignment to
         `process.env.DEBUG` if `process.env.DEBUG` is negative string to
