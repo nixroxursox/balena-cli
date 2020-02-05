@@ -1,4 +1,36 @@
 - commits:
+    - subject: Add project directory validation for balena push / build / deploy
+      hash: a132f30a248391f54f0499c49b6a7f9ae9cc771a
+      body: ''
+      footer:
+        Connects-to: '#1421'
+        connects-to: '#1421'
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+    - subject: Refactor 'balena push' error handling
+      hash: 217c8e8a6aaa743e3d4306c63b1e4e47c16f6e64
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+    - subject: Add more tests for push / build / deploy
+      hash: fbcf39a5e37755531ef4358fa77ba835e186b66e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Paulo Castro <paulo@balena.io>
+        signed-off-by: Paulo Castro <paulo@balena.io>
+      author: Paulo Castro
+  version: 11.25.2
+  date: 2020-02-05T02:12:12.991Z
+- commits:
     - subject: Remove unnecessary code now that typescript understands `process.exit`
       hash: 27e1f3f7d7664fc59be9edac77ed5cef4201bf45
       body: ''
