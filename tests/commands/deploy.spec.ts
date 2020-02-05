@@ -136,6 +136,7 @@ describe('balena deploy', function() {
 				'src',
 				'windows-crlf.sh',
 			)}`,
+			'[Warn] Windows-format line endings were detected in some files. Consider using the `--convert-eol` option.',
 		]);
 	});
 });

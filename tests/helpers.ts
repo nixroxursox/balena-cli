@@ -212,3 +212,21 @@ export async function expectStreamNoCRLF(
 	const buf = await streamToBuffer(stream);
 	await chai.expect(buf.includes('\r\n')).to.be.false;
 }
+
+/**
+ * Dynamic template string resolution.
+ * Usage example:
+ *     const templateString = 'hello ${name}!';
+ *     const templateVars = { name: 'world' };
+ * 		 console.log( fillTemplate(templateString, templateVars) );
+ *     // hello world!
+ */
+export function fillTemplate(
+	templateString: string,
+	templateVars: object,
+): string {
+	return new Function(
+		...Object.keys(templateVars),
+		`return \`${templateString}\`;`,
+	).call(null, ...Object.values(templateVars));
+}
