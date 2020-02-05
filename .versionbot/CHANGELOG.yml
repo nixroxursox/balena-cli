@@ -1,4 +1,14 @@
 - commits:
+    - subject: Convert lib/auth/utils to typescript
+      hash: 88d2aa79a8d8d4bce7675f47142153492b23ce6d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 11.25.3
+  date: 2020-02-05T21:37:23.684Z
+- commits:
     - subject: >-
         Debug mode can now be disabled with DEBUG=0 env var Added assignment to
         `process.env.DEBUG` if `process.env.DEBUG` is negative string to
