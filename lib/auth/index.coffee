@@ -18,7 +18,7 @@ limitations under the License.
 # @module auth
 ###
 
-open = require('opn')
+open = require('open')
 balena = require('balena-sdk').fromSharedOptions()
 server = require('./server')
 utils = require('./utils')
@@ -56,7 +56,7 @@ exports.login = ->
 		# Leave a bit of time for the
 		# server to get up and runing
 		setTimeout ->
-			open(loginUrl, { wait: false })
+			open(loginUrl, { url: true, wait: false })
 		, 1000
 
 		return server.awaitForToken(options)
