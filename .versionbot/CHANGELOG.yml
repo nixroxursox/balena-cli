@@ -1,4 +1,14 @@
 - commits:
+    - subject: Switch from opn to its new name of open
+      hash: ac3aa286692312becdcb03cd5f5070239496aafb
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 11.25.3
+  date: 2020-02-05T21:36:13.594Z
+- commits:
     - subject: >-
         Debug mode can now be disabled with DEBUG=0 env var Added assignment to
         `process.env.DEBUG` if `process.env.DEBUG` is negative string to
